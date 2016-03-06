@@ -2769,7 +2769,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				</recordIdentifier>
 			</xsl:for-each>
 
-			<recordOrigin>Converted from MARCXML to MODS version 3.5 using MARC21slim2MODS3-5.xsl
+			<recordOrigin>Converted from MARCXML to MODS version 3.5 using a customized version MARC21slim2MODS3-5.xsl
 				(Revision 1.106 2014/12/19)</recordOrigin>
 
 			<xsl:for-each select="marc:datafield[@tag=040]/marc:subfield[@code='b']">
