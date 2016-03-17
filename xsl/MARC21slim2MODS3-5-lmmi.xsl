@@ -5,11 +5,11 @@
 
 	<!-- Maintenance note: For each revision, change the content of <recordInfo><recordOrigin> to reflect the new revision number.
 	MARC21slim2MODS3-5 (Revision 1.106) 20141219
-	
-Revision 1.106 - Added a xsl:when to deal with '#' and ' ' in $leader19 and $controlField008-18 - ws 2014/12/19		
-Revision 1.105 - Add @unit to extent - ws 2014/11/20	
+
+Revision 1.106 - Added a xsl:when to deal with '#' and ' ' in $leader19 and $controlField008-18 - ws 2014/12/19
+Revision 1.105 - Add @unit to extent - ws 2014/11/20
 Revision 1.104 - Fixed 111$n and 711$n to reflect mapping to <namePart> tmee 20141112
-Revision 1.103 - Fixed 008/28 to reflect revised mapping for government publication tmee 20141104	
+Revision 1.103 - Fixed 008/28 to reflect revised mapping for government publication tmee 20141104
 Revision 1.102 - Fixed 240$s duplication tmee 20140812
 Revision 1.101 - Fixed 130 tmee 20140806
 Revision 1.100 - Fixed 245c tmee 20140804
@@ -17,9 +17,9 @@ Revision 1.99 - Fixed 240 issue tmee 20140804
 Revision 1.98 - Fixed 336 mapping tmee 20140522
 Revision 1.97 - Fixed 264 mapping tmee 20140521
 Revision 1.96 - Fixed 310 and 321 and 008 frequency authority for marcfrequency tmee 2014/04/22
-Revision 1.95 - Modified 035 to include identifier type (WlCaITV) tmee 2014/04/21	
+Revision 1.95 - Modified 035 to include identifier type (WlCaITV) tmee 2014/04/21
 Revision 1.94 - Leader 07 b changed mapping from continuing to serial tmee 2014/02/21
-MODS 3.5 
+MODS 3.5
 Revision 1.93 - Fixed personal name transform for ind1=0 tmee 2014/01/31
 Revision 1.92 - Removed duplicate code for 856 1.51 tmee 2014/01/31
 Revision 1.91 - Fixed createnameFrom720 duplication tmee 2014/01/31
@@ -29,7 +29,7 @@ Revision 1.88 - Fixed 510c mapping - tmee 2013/08/29
 Revision 1.87 - Fixed expressions of <accessCondition> type values - tmee 2013/08/29
 Revision 1.86 - Fixed 008 <frequency> subfield to occur w/i <originiInfo> - tmee 2013/08/29
 Revision 1.85 - Fixed 245$c - tmee 2013/03/07
-Revision 1.84 - Fixed 1.35 and 1.36 date mapping for 008 when 008/06=e,p,r,s,t so only 008/07-10 displays, rather than 008/07-14 - tmee 2013/02/01   
+Revision 1.84 - Fixed 1.35 and 1.36 date mapping for 008 when 008/06=e,p,r,s,t so only 008/07-10 displays, rather than 008/07-14 - tmee 2013/02/01
 Revision 1.83 - Deleted mapping for 534 to note - tmee 2013/01/18
 Revision 1.82 - Added mapping for 264 ind 0,1,2,3 to originInfo - 2013/01/15 tmee
 Revision 1.81 - Added mapping for 336$a$2, 337$a$2, 338$a$2 - 2012/12/03 tmee
@@ -42,9 +42,9 @@ Revision 1.75 - Fixed 653 - 2012/01/31 tmee
 Revision 1.74 - Fixed 510 note - 2011/07/15 tmee
 Revision 1.73 - Fixed 506 540 - 2011/07/11 tmee
 Revision 1.72 - Fixed frequency error - 2011/07/07 and 2011/07/14 tmee
-Revision 1.71 - Fixed subject titles for subfields t - 2011/04/26 tmee 
-Revision 1.70 - Added mapping for OCLC numbers in 035s to go into <identifier type="oclc"> 2011/02/27 - tmee 	
-Revision 1.69 - Added mapping for untyped identifiers for 024 - 2011/02/27 tmee 
+Revision 1.71 - Fixed subject titles for subfields t - 2011/04/26 tmee
+Revision 1.70 - Added mapping for OCLC numbers in 035s to go into <identifier type="oclc"> 2011/02/27 - tmee
+Revision 1.69 - Added mapping for untyped identifiers for 024 - 2011/02/27 tmee
 Revision 1.68 - Added <subject><titleInfo> mapping for 600/610/611 subfields t,p,n - 2010/12/22 tmee
 Revision 1.67 - Added frequency values and authority="marcfrequency" for 008/18 - 2010/12/09 tmee
 Revision 1.66 - Fixed 008/06=c,d,i,m,k,u, from dateCreated to dateIssued - 2010/12/06 tmee
@@ -69,11 +69,11 @@ Revision 1.49 - Aquifer revision 1.14 - Added 240s (version) data to <titleInfo 
 Revision 1.48 - Aquifer revision 1.27 - Added mapping of 242 second indicator (for nonfiling characters) to <titleInfo><nonSort > subelement  2007/08/08 tmee/dlf
 Revision 1.47 - Aquifer revision 1.26 - Mapped 300 subfield f (type of unit) - and g (size of unit) 2009 ntra
 Revision 1.46 - Aquifer revision 1.25 - Changed mapping of 767 so that <type="otherVersion>  2009/11/20  tmee
-Revision 1.45 - Aquifer revision 1.24 - Changed mapping of 765 so that <type="otherVersion>  2009/11/20  tmee 
+Revision 1.45 - Aquifer revision 1.24 - Changed mapping of 765 so that <type="otherVersion>  2009/11/20  tmee
 Revision 1.44 - Added <recordInfo><recordOrigin> canned text about the version of this stylesheet 2009 ntra
 Revision 1.43 - Mapped 351 subfields a,b,c 2009/11/20 tmee
 Revision 1.42 - Changed 856 second indicator=1 to go to <location><url displayLabel=”electronic resource”> instead of to <relatedItem type=”otherVersion”><url> 2009/11/20 tmee
-Revision 1.41 - Aquifer revision 1.9 Added variable and choice protocol for adding usage=”primary display” 2009/11/19 tmee 
+Revision 1.41 - Aquifer revision 1.9 Added variable and choice protocol for adding usage=”primary display” 2009/11/19 tmee
 Revision 1.40 - Dropped <note> for 510 and added <relatedItem type="isReferencedBy"> for 510 2009/11/19 tmee
 Revision 1.39 - Aquifer revision 1.23 Changed mapping for 762 (Subseries Entry) from <relatedItem type="series"> to <relatedItem type="constituent"> 2009/11/19 tmee
 Revision 1.38 - Aquifer revision 1.29 Dropped 007s for electronic versions 2009/11/18 tmee
@@ -97,7 +97,7 @@ Revision 1.21 - Mapped 856 ind2=1 or ind2=2 to <relatedItem><location><url>  200
 Revision 1.20 - Added genre w/@auth="contents of 2" and type= "musical composition"  2008/07/01 tmee
 Revision 1.19 - Added genre offprint for 008/24+ BK code 2  2008/07/01  tmee
 Revision 1.18 - Added xlink/uri for subfield 0 for 130/240/730, 100/700, 110/710, 111/711  2008/06/26 tmee
-Revision 1.17 - Added mapping of 662 2008/05/14 tmee	
+Revision 1.17 - Added mapping of 662 2008/05/14 tmee
 Revision 1.16 - Changed @authority from "marc" to "marcgt" for 007 and 008 codes mapped to a term in <genre> 2007/07/10 tmee
 Revision 1.15 - For field 630, moved call to part template outside title element  2007/07/10 tmee
 Revision 1.14 - Fixed template isValid and fields 010, 020, 022, 024, 028, and 037 to output additional identifier elements with corresponding @type and @invalid eq 'yes' when subfields z or y (in the case of 022) exist in the MARCXML ::: 2007/01/04 17:35:20 cred
@@ -155,6 +155,12 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				<xsl:when test="$leader6='g' or $leader6='k' or $leader6='o' or $leader6='r'">VM</xsl:when>
 				<xsl:when test="$leader6='c' or $leader6='d' or $leader6='i' or $leader6='j'">MU</xsl:when>
 			</xsl:choose>
+		</xsl:variable>
+		<!-- Pass the place term in 751 to the host item for Ryrie-Cambpell lmmi -->
+		<xsl:variable name="place751">
+			<xsl:for-each select="marc:datafield[@tag='751']/marc:subfield[@code='a']">
+				<xsl:value-of select="text()"/>
+			</xsl:for-each>
 		</xsl:variable>
 
 		<!-- titleInfo -->
@@ -286,7 +292,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				<xsl:call-template name="role"/>
 			</name>
 		</xsl:for-each>
-		
+
 		<xsl:for-each select="marc:datafield[@tag='720'][not(marc:subfield[@code='t'])]">
 		<name>
 		<xsl:if test="@ind1=1">
@@ -605,9 +611,9 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				</xsl:when>
 			</xsl:choose>
 		</xsl:if>
-	
-<!-- 111$n, 711$n 1.103 -->	
-		
+
+		<!-- 111$n, 711$n 1.103 -->
+
 		<xsl:if test="$typeOf008='BK'">
 			<xsl:variable name="controlField008-28" select="substring($controlField008,29,1)"/>
 			<xsl:choose>
@@ -813,7 +819,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				</xsl:when>
 			</xsl:choose>
 		</xsl:if>
-		
+
 
 		<!-- genre -->
 
@@ -865,16 +871,6 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 								</xsl:call-template>
 							</xsl:with-param>
 						</xsl:call-template>
-					</placeTerm>
-				</place>
-			</xsl:for-each>
-			<!-- Mapping 751a country information for Ryrie-Campbell -->
-			<xsl:for-each select="marc:datafield[@tag=751]/marc:subfield[@code='a']">
-				<place>
-					<placeTerm>
-						<xsl:attribute name="type">text</xsl:attribute>
-						<xsl:attribute name="authority">marccountry</xsl:attribute>
-						<xsl:value-of select="."/>
 					</placeTerm>
 				</place>
 			</xsl:for-each>
@@ -1022,7 +1018,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 			</xsl:if>
 
 
-			<!-- tmee 1.77 008-06 dateIssued for value 's' 1.89 removed 20130920 
+			<!-- tmee 1.77 008-06 dateIssued for value 's' 1.89 removed 20130920
 			<xsl:if test="$controlField008-6='s'">
 				<xsl:if test="$controlField008-7-10">
 					<dateIssued encoding="marc">
@@ -1031,7 +1027,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				</xsl:if>
 			</xsl:if>
 			-->
-			
+
 			<xsl:if test="$controlField008-6='t'">
 				<xsl:if test="$controlField008-11-14">
 					<copyrightDate encoding="marc">
@@ -1059,12 +1055,12 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					<xsl:value-of select="."/>
 				</edition>
 			</xsl:for-each>
+			<!-- Do not select the issuance for Ryrie-Cambpell lmmi.
 			<xsl:for-each select="marc:leader">
 				<issuance>
 					<xsl:choose>
 						<xsl:when test="$leader7='a' or $leader7='c' or $leader7='d' or $leader7='m'">monographic</xsl:when>
 						<xsl:when test="$leader7='m' and ($leader19='a' or $leader19='b' or $leader19='c')">multipart monograph</xsl:when>
-						<!-- 1.106 20141218 -->
 						<xsl:when test="$leader7='m' and ($leader19=' ')">single unit</xsl:when>
 						<xsl:when test="$leader7='m' and ($leader19='#')">single unit</xsl:when>
 						<xsl:when test="$leader7='i'">integrating resource</xsl:when>
@@ -1072,7 +1068,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					</xsl:choose>
 				</issuance>
 			</xsl:for-each>
-			
+			-->
 			<!-- 1.96 20140422 -->
 			<xsl:for-each select="marc:datafield[@tag=310]|marc:datafield[@tag=321]">
 				<frequency>
@@ -1081,9 +1077,9 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					</xsl:call-template>
 				</frequency>
 			</xsl:for-each>
-			
+
 			<!-- 1.67 1.72 updated fixed location issue 201308 1.86	-->
-			
+
 			<xsl:if test="$typeOf008='SE'">
 				<xsl:for-each select="marc:controlfield[@tag=008]">
 					<xsl:variable name="controlField008-18" select="substring($controlField008,19,1)"/>
@@ -1148,9 +1144,9 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				<!-- Template checks for altRepGroup - 880 $6 1.88 20130829 added chopPunc-->
 				<xsl:call-template name="xxx880"/>
 				<place>
-						<placeTerm type="text">
-							<xsl:value-of select="marc:subfield[@code='a']"/>
-						</placeTerm>
+					<placeTerm type="text">
+						<xsl:value-of select="marc:subfield[@code='a']"/>
+					</placeTerm>
 				</place>
 				<publisher>
 					<xsl:value-of select="marc:subfield[@code='b']"/>
@@ -2110,20 +2106,20 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 						</dateOther>
 					</originInfo>
 				</xsl:for-each>
-				
+
 				<part>
 					<detail type="part">
 						<number>
-					<xsl:call-template name="chopPunctuation">
-						<xsl:with-param name="chopString">
-							<xsl:call-template name="subfieldSelect">
-								<xsl:with-param name="codes">c</xsl:with-param>
+							<xsl:call-template name="chopPunctuation">
+								<xsl:with-param name="chopString">
+									<xsl:call-template name="subfieldSelect">
+										<xsl:with-param name="codes">c</xsl:with-param>
+									</xsl:call-template>
+								</xsl:with-param>
 							</xsl:call-template>
-						</xsl:with-param>
-					</xsl:call-template>
 						</number>
 					</detail>
-					</part>
+				</part>
 			</relatedItem>
 		</xsl:for-each>
 
@@ -2332,7 +2328,10 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 
 		<xsl:for-each select="marc:datafield[@tag=772]|marc:datafield[@tag=773]">
 			<relatedItem type="host">
-				<xsl:call-template name="relatedItem76X-78X"/>
+				<!-- Pass place term from 751 to host for Ryrie-Campbell lmmi -->
+				<xsl:call-template name="relatedItem76X-78X">
+					<xsl:with-param name="place751" select="$place751"></xsl:with-param>
+				</xsl:call-template>
 			</relatedItem>
 		</xsl:for-each>
 		<xsl:for-each select="marc:datafield[@tag=776]">
@@ -2606,8 +2605,8 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				<xsl:value-of select="normalize-space(substring-after(marc:subfield[@code='a'], '(OCoLC)'))"/>
 			</identifier>
 		</xsl:for-each>
-		
-		
+
+
 		<!-- 3.5 1.95 20140421 -->
 		<xsl:for-each select="marc:datafield[@tag='035'][marc:subfield[@code='a'][contains(text(), '(WlCaITV)')]]">
 			<identifier type="WlCaITV">
@@ -2662,7 +2661,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				</identifier>
 			</xsl:if>
 		</xsl:for-each>
-		
+
 		<xsl:for-each select="marc:datafield[@tag=024][@ind1=1]">
 			<identifier type="upc">
 				<xsl:value-of select="marc:subfield[@code='a']"/>
@@ -2974,10 +2973,15 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 		<xsl:call-template name="relatedPart"/>
 	</xsl:template>
 	<xsl:template name="relatedItem76X-78X">
+		<!-- Pass place from 751 to host for Ryrie-Campbell -->
+		<xsl:param name="place751"/>
 		<xsl:call-template name="displayLabel"/>
 		<xsl:call-template name="relatedTitle76X-78X"/>
 		<xsl:call-template name="relatedName"/>
-		<xsl:call-template name="relatedOriginInfo"/>
+		<!-- Pass place from 751 to host for Ryrie-Campbell -->
+		<xsl:call-template name="relatedOriginInfo">
+			<xsl:with-param name="place751" select="$place751"/>
+		</xsl:call-template>
 		<xsl:call-template name="relatedLanguage"/>
 		<xsl:call-template name="relatedExtent"/>
 		<xsl:call-template name="relatedNote"/>
@@ -3061,7 +3065,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 			</xsl:call-template>
 		</namePart>
 	</xsl:template>
-	
+
 	<!--1.104 20141104-->
 	<xsl:template name="nameACDENQ">
 		<namePart>
@@ -3070,9 +3074,9 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 			</xsl:call-template>
 		</namePart>
 	</xsl:template>
-	
-	
-	
+
+
+
 	<xsl:template name="constituentOrRelatedType">
 		<xsl:if test="@ind2=2">
 			<xsl:attribute name="type">constituent</xsl:attribute>
@@ -3136,6 +3140,8 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 		</xsl:for-each>
 	</xsl:template>
 	<xsl:template name="relatedOriginInfo">
+		<!-- Use place from the 751 for Ryrie-Campbell lmmi -->
+		<xsl:param name="place751"/>
 		<xsl:if test="marc:subfield[@code='b' or @code='d'] or marc:subfield[@code='f']">
 			<originInfo>
 				<xsl:if test="@tag=775">
@@ -3154,6 +3160,15 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 						<xsl:value-of select="."/>
 					</publisher>
 				</xsl:for-each>
+				<place>
+					<placeTerm type="text" authority="marccountry">
+						<xsl:value-of select="$place751"/>
+					</placeTerm>
+				</place>
+				<!-- Mark issuance as serial for all records for Ryrie-Campbell lmmi. -->
+				<issuance>
+					<xsl:text>serial</xsl:text>
+				</issuance>
 				<xsl:for-each select="marc:subfield[@code='b']">
 					<edition>
 						<xsl:value-of select="."/>
@@ -3216,7 +3231,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 			</xsl:if>
 		</xsl:if>
 	</xsl:template>
-	<!-- 1.75 
+	<!-- 1.75
 		fix -->
 	<xsl:template name="subject653Type">
 		<xsl:if test="@ind2!=' '">
@@ -3355,7 +3370,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					<xsl:with-param name="chopString">
 						<xsl:value-of select="marc:subfield[@code='b']"/>
 						<!--<xsl:call-template name="subfieldSelect">
-							<xsl:with-param name="codes">b</xsl:with-param>									
+							<xsl:with-param name="codes">b</xsl:with-param>
 						</xsl:call-template>-->
 					</xsl:with-param>
 				</xsl:call-template>
@@ -3711,7 +3726,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					<xsl:value-of select="$sf06260b"/>
 				</xsl:when>
 			</xsl:choose>
-		</xsl:variable>            
+		</xsl:variable>
 
 		<xsl:variable name="x250">
 			<xsl:choose>
@@ -4159,29 +4174,29 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 	<!-- 130 tmee 1.101 20140806-->
 	<xsl:template name="createTitleInfoFrom130">
 
-			<titleInfo type="uniform">
-				<title>
-					<xsl:variable name="str">
-						<xsl:for-each select="marc:subfield">
-							<xsl:if test="(contains('s',@code))">
-								<xsl:value-of select="text()"/>
-								<xsl:text> </xsl:text>
-							</xsl:if>
-							<xsl:if test="(contains('adfklmors',@code) and (not(../marc:subfield[@code='n' or @code='p']) or (following-sibling::marc:subfield[@code='n' or @code='p'])))">
-								<xsl:value-of select="text()"/>
-								<xsl:text> </xsl:text>
-							</xsl:if>
-						</xsl:for-each>
-					</xsl:variable>
-					<xsl:call-template name="chopPunctuation">
-						<xsl:with-param name="chopString">
-							<xsl:value-of select="substring($str,1,string-length($str)-1)"/>
-						</xsl:with-param>
-					</xsl:call-template>
-				</title>
-				<xsl:call-template name="part"/>
-			</titleInfo>
-		
+		<titleInfo type="uniform">
+			<title>
+				<xsl:variable name="str">
+					<xsl:for-each select="marc:subfield">
+						<xsl:if test="(contains('s',@code))">
+							<xsl:value-of select="text()"/>
+							<xsl:text> </xsl:text>
+						</xsl:if>
+						<xsl:if test="(contains('adfklmors',@code) and (not(../marc:subfield[@code='n' or @code='p']) or (following-sibling::marc:subfield[@code='n' or @code='p'])))">
+							<xsl:value-of select="text()"/>
+							<xsl:text> </xsl:text>
+						</xsl:if>
+					</xsl:for-each>
+				</xsl:variable>
+				<xsl:call-template name="chopPunctuation">
+					<xsl:with-param name="chopString">
+						<xsl:value-of select="substring($str,1,string-length($str)-1)"/>
+					</xsl:with-param>
+				</xsl:call-template>
+			</title>
+			<xsl:call-template name="part"/>
+		</titleInfo>
+
 	</xsl:template>
 	<xsl:template name="createTitleInfoFrom730">
 		<titleInfo type="uniform">
@@ -4383,7 +4398,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					<xsl:text>primary</xsl:text>
 				</xsl:attribute>
 				<xsl:call-template name="xxx880"/>
-			
+
 				<xsl:if test="ancestor::marcrecord//marc:datafield[@tag='240']">
 					<xsl:attribute name="nameTitleGroup">
 						<xsl:text>1</xsl:text>
@@ -4456,7 +4471,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 		</name>
 	</xsl:template>
 
-<!-- 111 1.104 20141104 -->
+	<!-- 111 1.104 20141104 -->
 	<xsl:template name="createNameFrom711">
 		<name type="conference">
 			<xsl:call-template name="xxx880"/>
@@ -4464,8 +4479,8 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 			<xsl:call-template name="role"/>
 		</name>
 	</xsl:template>
-	
-	
+
+
 	<xsl:template name="createNameFrom720">
 		<!-- 1.91 FLVC correction: the original if test will fail because of xpath: the current node (from the for-each above) is already the 720 datafield -->
 		<!-- <xsl:if test="marc:datafield[@tag='720'][not(marc:subfield[@code='t'])]"> -->
@@ -4483,9 +4498,9 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 			</name>
 		</xsl:if>
 	</xsl:template>
-	
-	
-	
+
+
+
 	<!-- replced by above 1.91
 	<xsl:template name="createNameFrom720">
 		<xsl:if test="marc:datafield[@tag='720'][not(marc:subfield[@code='t'])]">
@@ -4537,17 +4552,27 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 	</xsl:template>
 
 	<xsl:template name="createGenreFrom655">
+		<!-- Break into multiple genre fields for Ryrie-Campbell lmmi -->
+		<xsl:for-each select="marc:subfield[@code='a' or @code='v']">
+			<genre authority="marcgt">
+				<xsl:value-of select="text()"/>
+			</genre>
+		</xsl:for-each>
+		<!-- Don't use standard concatenation for Ryrie-Campbell lmmi
 		<genre authority="marcgt">
 			<xsl:attribute name="authority">
 				<xsl:value-of select="marc:subfield[@code='2']"/>
 			</xsl:attribute>
-			<!-- Template checks for altRepGroup - 880 $6 -->
+		-->
+		<!-- Template checks for altRepGroup - 880 $6 -->
+		<!--
 			<xsl:call-template name="xxx880"/>
 			<xsl:call-template name="subfieldSelect">
 				<xsl:with-param name="codes">abvxyz</xsl:with-param>
 				<xsl:with-param name="delimeter">-</xsl:with-param>
 			</xsl:call-template>
 		</genre>
+		-->
 	</xsl:template>
 
 	<!-- tOC 505 -->
@@ -4576,7 +4601,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					<xsl:when test="@ind1='4'">Content advice</xsl:when>
 				</xsl:choose>
 			</xsl:attribute>
-			
+
 			<xsl:call-template name="xxx880"/>
 			<xsl:call-template name="uri"/>
 			<xsl:call-template name="subfieldSelect">
@@ -4603,15 +4628,15 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 	<!-- 1.100 245c 20140804 -->
 	<xsl:template name="createNoteFrom245c">
 		<xsl:if test="marc:subfield[@code='c']">
-				<note type="statement of responsibility">
-					<xsl:attribute name="altRepGroup">
-						<xsl:text>00</xsl:text>
-					</xsl:attribute>
-					<xsl:call-template name="scriptCode"/>
-					<xsl:call-template name="subfieldSelect">
-						<xsl:with-param name="codes">c</xsl:with-param>
-					</xsl:call-template>
-				</note>
+			<note type="statement of responsibility">
+				<xsl:attribute name="altRepGroup">
+					<xsl:text>00</xsl:text>
+				</xsl:attribute>
+				<xsl:call-template name="scriptCode"/>
+				<xsl:call-template name="subfieldSelect">
+					<xsl:with-param name="codes">c</xsl:with-param>
+				</xsl:call-template>
+			</note>
 		</xsl:if>
 
 	</xsl:template>
@@ -4963,17 +4988,17 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 
 
 	<xsl:template name="createNoteFrom5XX">
-				<note>
-					<xsl:call-template name="xxx880"/>
-					<xsl:call-template name="uri"/>
-					<xsl:variable name="str">
-						<xsl:for-each select="marc:subfield[@code!='6' and @code!='8']">
-							<xsl:value-of select="."/>
-							<xsl:text> </xsl:text>
-						</xsl:for-each>
-					</xsl:variable>
-					<xsl:value-of select="substring($str,1,string-length($str)-1)"/>
-				</note>				
+		<note>
+			<xsl:call-template name="xxx880"/>
+			<xsl:call-template name="uri"/>
+			<xsl:variable name="str">
+				<xsl:for-each select="marc:subfield[@code!='6' and @code!='8']">
+					<xsl:value-of select="."/>
+					<xsl:text> </xsl:text>
+				</xsl:for-each>
+			</xsl:variable>
+			<xsl:value-of select="substring($str,1,string-length($str)-1)"/>
+		</note>
 	</xsl:template>
 
 	<!-- subject Geo 034 043 045 255 656 662 752 -->
@@ -5019,7 +5044,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 		<subject>
 			<xsl:call-template name="xxx880"/>
 			<cartographics>
-			<xsl:for-each select="marc:subfield[@code='a' or @code='b' or @code='c']">
+				<xsl:for-each select="marc:subfield[@code='a' or @code='b' or @code='c']">
 					<xsl:if test="@code='a'">
 						<scale>
 							<xsl:value-of select="."/>
@@ -5035,7 +5060,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 							<xsl:value-of select="."/>
 						</coordinates>
 					</xsl:if>
-			</xsl:for-each>
+				</xsl:for-each>
 			</cartographics>
 		</subject>
 	</xsl:template>
@@ -5246,7 +5271,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 				</topic>
 			</subject>
 		</xsl:if>
-<!-- tmee 1.93 20140130 -->
+		<!-- tmee 1.93 20140130 -->
 		<xsl:if test="@ind=' ' or @ind1='0' or @ind1='1'">
 			<subject>
 				<name type="personal">
